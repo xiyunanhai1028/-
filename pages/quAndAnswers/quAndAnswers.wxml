@@ -1,0 +1,49 @@
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+  <view class="cu-bar fixed bg-white" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
+      <text class='icon-back'></text>
+      <view class="content">答案解析（问答题）</view>
+    </navigator>
+  </view>
+</view>
+<view class="container">
+  <scroll-view scroll-y>
+    <view class='answer-box'>
+      <view class='subject'>关于农村土地流转，应该如何处理</view>
+
+      <view class='self-answer-box'>
+        <view class='title'>自己答案：</view>
+        <view class='self-answer'>答：“坚持依法，自愿，有偿的基本原则。鼓励农户
+依法采取转包，出租，互换等方式流转承包地。没
+有农户的书面委托，农村基层组织无权以任何方式
+决定流转农户的承包地</view>
+      </view>
+
+      <view class='standard-answer-box'>
+         <view class='title'>标准答案：</view>
+        <view class='standard-answer'>答：“坚持依法，自愿，有偿的基本原则。鼓励农户
+依法采取转包，出租，互换等方式流转承包地。没
+有农户的书面委托，农村基层组织无权以任何方式
+决定流转农户的承包地</view>
+      </view>
+      
+      <view class='other-answer-box'>
+        <view class='title'>其他学员答案：</view>
+        <view class='other-answers'>
+           <view class='other-answer'>答：“坚持依法，自愿，有偿的基本原则。鼓励农户
+依法采取转包，出租，互换等方式流转承包地。没
+有农户的书面委托，农村基层组织无权以任何方式
+决定流转农户的承包地</view>
+          <view class='other-answer'>答：“坚持依法，自愿，有偿的基本原则。鼓励农户
+依法采取转包，出租，互换等方式流转承包地。没
+有农户的书面委托，农村基层组织无权以任何方式
+决定流转农户的承包地</view>
+          <view class='other-answer'>答：“坚持依法，自愿，有偿的基本原则。鼓励农户
+          依法采取转包，出租，互换等方式流转承包地。没
+          有农户的书面委托，农村基层组织无权以任何方式
+          决定流转农户的承包地</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
